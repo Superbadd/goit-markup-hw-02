@@ -1,0 +1,138 @@
+:root {
+    --secondary-color: #4d5ae5;
+    --color-ocean: #404bbf;
+    --title-color: #2e2f42;
+    --color-green: #31d0aa;
+    --primary-color: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --fill-color: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
+    body {
+        color: var(--primary-color);
+        background-color: var(--fill-color);
+        font-family: Roboto, sans-serif;
+        letter-spacing: 0.02em;
+    }
+
+    .portfolio {
+        background-color: #E5E5E5;
+    }
+
+    header {
+        background-color: #E7E9FC;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .logo {
+        color: var(--title-color);
+        font-family: Raleway, sans-serif; 
+        font-style: 800; 
+        font-size: 18px; 
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+    }
+
+    .accent {
+        color: var(--secondary-color);
+    }
+
+    .logo:hover {
+        color: #18a0fb;
+    }
+
+    .nav-list .link {
+        color: var(--title-color);
+        font-style: Medium; 
+        font-size: 16px; 
+        line-height: 1.5;
+        text-decoration: none;
+    }
+
+    .nav-list .link:hover,
+    .nav-list .link:focus {
+        color: #18a0fb;
+    }
+
+    .contacts-link {
+    color: var(--primary-color);
+    font-size: 16px; 
+    line-height: 1.5;
+    text-decoration: none;
+    font-style: normal;
+    }
+
+    .contacts-link:hover,
+    .contacts-link:focus {
+    color: #18a0fb;
+    }
+
+    .headline { 
+    color: ; 
+    font-size: 56px; 
+    line-height: 1.07;
+    text-align: center;
+    }
+
+    .section-title {
+    color: var(--title-color);
+    font-weight: 700; 
+    font-size: 36px; 
+    line-height: 1.11; 
+    text-align: Center;
+    }
+
+    .button {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    font-style: 500;
+    letter-spacing: 0.04;
+    font-size: 16px; 
+    line-height: 1.28;
+    align: Center;
+    letter-spacing: 0.04em;
+    }
+
+    .btn {
+    background-color: #E7E9FC;
+    color: var(--secondary-color);
+    font-style: 500; 
+    font-size: 16px; 
+    line-height: 1.28; 
+    align: Center;
+    letter-spacing: 0.04em;
+    }
+    
+    .btn:hover {
+    background-color: #404bbf;
+    color: #ffffff;
+    }
+
+   .subtitle {
+    color: var(--title-color);
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 1.2;
+    text-align: Left;
+   }
+
+   .text {
+    color: var(--primary-color);
+    font-weight: Regular; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    text-align: left;
+   }
+
+   .footer-text {
+    color: #f4f4fd;
+   }
