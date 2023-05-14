@@ -44,15 +44,17 @@
         text-decoration: none;
     }
 
-    .accent {
+    .accent-link {
         color: var(--title-color);
     }
 
-    .accent-alt {
+    .alt-link {
         color: #f4f4fd;
     }
 
-    .logo-link:hover {
+    .logo-link:hover,
+    .alt-link:hover,
+    .accent-link:hover {
         color: #18a0fb;
     }
 
@@ -119,7 +121,6 @@
     font-weight: 500;
     font-size: 16px; 
     line-height: 1.5;
-    align: Center;
     letter-spacing: 0.04em;
     }
 
@@ -136,7 +137,6 @@
     font-weight: 500; 
     font-size: 16px; 
     line-height: 1.5; 
-    align: Center;
     letter-spacing: 0.04em;
     }
     
