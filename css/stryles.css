@@ -44,11 +44,11 @@
         text-decoration: none;
     }
 
-    .accent-link {
+    .link-accent {
         color: var(--title-color);
     }
 
-    .alt-link {
+    .link-alt {
         color: #f4f4fd;
     }
 
