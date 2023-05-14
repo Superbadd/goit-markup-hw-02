@@ -32,7 +32,7 @@
         list-style: none;
     }
 
-    .link-logo {
+    .logo {
         color: #4d5ae5;
         font-family: Raleway, sans-serif; 
         font-weight: 800;
@@ -44,16 +44,16 @@
         text-decoration: none;
     }
 
-    .link-accent {
-        color: var(--title-color);
+    .accent {
+    color: var(--title-color);
     }
 
-    .link-alt {
-        color: #f4f4fd;
+    .alt {
+    color: #f4f4fd;
     }
 
 
-    .link-list {
+    .list {
     color: var(--title-color); 
     font-size: 16px; 
     line-height: 1.5;
@@ -64,12 +64,12 @@
     text-decoration: none;
     }
 
-    .link-list:hover,
-    .link-list:focus {
+    .list:hover,
+    .list:focus {
     color: #404bbf;
     }
 
-    .link-contacts {
+    .contacts {
     color: var(--primary-color);
     font-size: 16px; 
     line-height: 1.5;
@@ -78,8 +78,8 @@
     list-style: none;
     }
 
-    .link-contacts:hover,
-    .link-contacts:focus {
+    .contacts:hover,
+    .contacts:focus {
     color: #404bbf;
     }
 
@@ -135,10 +135,10 @@
     letter-spacing: 0.04em;
     }
     
-    .btn:hover,
-    .btn:focus {
-    background-color: #404bbf;
+    button:hover,
+    button:focus {
     color: #ffffff;
+    background-color: #404bbf;
     cursor: pointer;
     }
 
@@ -163,11 +163,11 @@
     text-align: left;
    }
 
-   .list-work {
-    list-style: none;
+   .list work {
+    list style: none;
    }
 
-   .link-work {
+   .work {
     text-decoration: none;
    }
 
@@ -186,8 +186,8 @@
     color: #434455;
    }
 
-   .list-btn {
-    list-style: none;
+   .btn {
+    list style: none;
    }
 
    .footer {
