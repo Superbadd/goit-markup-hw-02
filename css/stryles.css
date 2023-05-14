@@ -32,7 +32,7 @@
         list-style: none;
     }
 
-    .logo-link {
+    .link-logo {
         color: #4d5ae5;
         font-family: Raleway, sans-serif; 
         font-weight: 800;
@@ -52,13 +52,8 @@
         color: #f4f4fd;
     }
 
-    .logo-link:hover,
-    .alt-link:hover,
-    .accent-link:hover {
-        color: #18a0fb;
-    }
 
-    .list .list-link {
+    .list .link-list {
         color: var(--title-color); 
         font-size: 16px; 
         line-height: 1.5;
@@ -69,12 +64,12 @@
         text-decoration: none;
     }
 
-    .list .list-link:hover,
-    .list .list-link:focus {
+    .list .link-list:hover,
+    .list .link-list:focus {
         color: #404bbf;
     }
 
-    .contacts-link {
+    .link-contacts {
     color: var(--primary-color);
     font-size: 16px; 
     line-height: 1.5;
@@ -83,8 +78,8 @@
     list-style: none;
     }
 
-    .contacts-link:hover,
-    .contacts-link:focus {
+    .link-contacts:hover,
+    .link-contacts:focus {
     color: #404bbf;
     }
 
@@ -168,11 +163,11 @@
     text-align: left;
    }
 
-   .work-list {
+   .list-work {
     list-style: none;
    }
 
-   .work-link {
+   .link-work {
     text-decoration: none;
    }
 
@@ -191,7 +186,7 @@
     color: #434455;
    }
 
-   .btn-list {
+   .list-btn {
     list-style: none;
    }
 
